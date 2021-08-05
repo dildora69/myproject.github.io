@@ -1,0 +1,127 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:700');
+body, h1, h2, h3, p, ul {
+    margin: 0;
+}
+
+body{
+     background-color:rgb(0, 1, 44);
+}
+
+#header {
+      background-color:rgb(160, 0, 0); 
+ 
+    }
+
+.container 
+{
+    width: 70%;
+    margin: 0 auto;
+   
+}
+
+#header h1 {
+    color: #fff;
+    font-family: sans-serif;
+    padding: 30px 50px;
+    font-size: 45px;
+} 
+
+#navbar {
+background-color: #333;
+
+} 
+#navbar ul li{
+    list-style-type: none;
+    display:inline;
+}
+
+#navbar span {
+    padding-left: 50%;
+}
+
+#navbar ul li a {
+    text-decoration: none;
+    
+    color: white;
+    padding: 15px 10px;
+    display: inline-block;
+    font-family: sans-serif;
+}
+
+
+#navbar ul li:first-child a {
+    padding-left: 0;
+}
+
+#showcase{
+    background-image: url(gorod_noch_luna_149516_1920x1080.jpg);
+    background-position:top center; 
+    min-height: 500px;
+}
+
+#showcase h1{
+
+    font-size: 50px;
+    font-family:cursive;
+    padding-top: 30px;
+    text-align: center;
+    text-transform: uppercase;
+   background: repeating-linear-gradient(-45deg, red 0%, yellow 10.14%, rgb(0,255,0) 14.28%,
+              rgb(0,255,255) 21.4%, cyan 28.56%, blue 35.7%, magenta 42.84%,black 48.4%, red 50%);
+  background-size: 300vw 300vw;
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+  animation: slide 10s linear infinite forwards;
+}
+@keyframes slide {
+  0%{
+    background-position-x: 0%;
+  }
+  100%{
+    background-position-x: 300vw;
+  }
+}
+
+.text{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.text p
+{
+    text-shadow: 7px 2px 7px rgb(255, 251, 1);
+    color: white;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    margin: 0;
+    padding: 60px 40px;
+    font-size: 20px;
+}
+
+.galery 
+{border: 1px solid #fff;
+    display: flex;
+    margin: 5px 40px;
+    float: left;
+    width: 400px;
+    justify-content: center;
+    align-items: center;
+    
+}
+.gallery:hover {
+    border: 1px solid #777;
+  }
+
+  .gallery img {
+    width: 100%;
+    height: auto;
+  }
+  .galery p{
+      padding: 5px 20px;
+  }
+ 
+
+ 
